@@ -20,7 +20,9 @@ public class UserController {
 
     @RequestMapping("/user")
     public String index(Principal p) {
+        System.out.println("------"+p.getName()+"--------->");
         LOG.debug("p:{}", p != null ? p.getName() : "null");
+        System.out.println("--------------->");
         return "user";
     }
 

@@ -8,7 +8,7 @@ spring:
 #keycloak:
 #       configurationFile: "classpath:keycloak.json"            
 keycloak:
-    realm: master
+    realm: family
     #auth-server-url: http://203.195.145.114:8080/auth
     auth-server-url: http://localhost:8080/auth
     ssl-required: none
